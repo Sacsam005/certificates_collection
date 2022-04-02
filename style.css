@@ -3,6 +3,9 @@ body {
   height: 100vh;
   box-sizing: border-box;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -108,9 +111,6 @@ body {
 
 @media screen and (max-width: 1024px) {
   .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 75%;
   }
 }
